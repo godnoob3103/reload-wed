@@ -1,0 +1,4 @@
+(function reloadContinuously() {
+    location.reload();
+    setTimeout(reloadContinuously, 1); // 1 milliseconds = 0.001 second
+})();
